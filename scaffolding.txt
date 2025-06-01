@@ -1,0 +1,36 @@
+1. Project Structure
+
+We’ll use this structure:
+
+/backend         # ASP.NET Core + GraphQL + EF Core
+/frontend        # React + Adobe React Spectrum + Relay
+/docker-compose.yml
+/README.md
+
+2. Backend (ASP.NET Core + GraphQL + EF Core)
+
+GraphQL Schema: Task (id, title, description, status)
+Mutations: createTask, updateTaskStatus
+Query: getAllTasks
+Persistence: EF Core with SQLite (for simplicity)
+Dockerfile: For containerization
+
+3. Frontend (React)
+
+UI: Adobe React Spectrum for styling
+State/Queries: Relay for GraphQL
+Features: Add new tasks, toggle status (Pending/Completed), display all tasks
+Dockerfile: For containerization
+
+4. Dockerization
+
+Backend: Dockerfile
+Frontend: Dockerfile
+Database: SQLite (file-based, so volume mapping)
+Orchestration: docker-compose.yml
+
+5. Submission
+
+Source code: All code in repo
+docker-compose.yml: At root
+README.md: Architecture, design choices, AI tools used

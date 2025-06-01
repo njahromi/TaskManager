@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/react-relay": "^18.2.1",
+    "@types/relay-runtime": "^19.0.2",
+    "babel-plugin-relay": "^19.0.0"
+  },
+  "dependencies": {
+    "@craco/craco": "^7.1.0"
+  }
+}

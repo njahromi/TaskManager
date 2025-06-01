@@ -1,0 +1,68 @@
+Project: Simple TO-DO List with Real-Time Sync
+
+ 
+
+Objective:
+Build a simple task manager application, consisting of an ASP.NET Core backend GraphQL API, a React frontend, and containerized deployment using Docker.
+
+ 
+
+Project Requirements:
+
+ 
+
+Backend (ASP.NET Core + GraphQL):
+
+ 
+
+Define a GraphQL schema for tasks (each Task should have an id, title, description, and status).
+Implement mutations: createTask, updateTaskStatus.
+Implement a query: getAllTasks.
+Use Entity Framework Core with SQL Server (or SQLite for simplicity) to persist tasks.
+
+ 
+
+Frontend (React):
+
+ 
+
+Build a UI, preferably using Adobe React Spectrum library, to add new tasks and toggle their status between "Pending" and "Completed".
+Fetch and display tasks using GraphQL queries, preferably using Relay GraphQL client.
+
+ 
+
+Dockerization:
+Dockerize the backend, frontend, and database.
+Use Docker Compose to orchestrate and run all services.
+
+ 
+
+Important Notes:
+
+ 
+
+We do not expect a candidate to manually code this entire application. Instead, we encourage and expect candidates to leverage agentic AI tools to accelerate their workflow.
+
+ 
+
+This project is designed to be completed within approximately 2 hours using such AI assistance. If a candidates needs considerably longer time, this position may not be the best match for their current skillset and workflow.
+
+ 
+
+Submission:
+Please submit your solution as a Git repository link, including:
+
+ 
+
+1.                  Source code
+
+2.                  Docker Compose file
+
+3.                  Short README explaining the architecture/design choices, and AI tools used.
+
+ 
+
+/backend         # ASP.NET Core + GraphQL + EF Core
+/frontend        # React + Adobe React Spectrum + Relay
+/docker-compose.yml
+/README.md 
